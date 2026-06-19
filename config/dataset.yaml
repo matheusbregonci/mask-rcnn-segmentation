@@ -1,0 +1,11 @@
+# Dataset no formato YOLO-seg, reutilizando os dados do projeto yolov8-segmentation.
+# `path` é relativo a este arquivo. Para usar dados locais, troque por: ../data
+path: ../../yolov8-segmentation/data
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 1
+names:
+  0: gran

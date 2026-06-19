@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Pesos treinados e exportados (grandes demais pro git)
+runs/
+*.pt
+*.pth
+*.onnx
+*.torchscript
+
+# Dados (geralmente não vão pro repo)
+data/train/images/
+data/train/labels/
+data/val/images/
+data/val/labels/
+data/test/images/
+data/test/labels/
+!**/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
