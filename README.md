@@ -9,6 +9,12 @@ A implementação usa o **Mask R-CNN do torchvision** (`maskrcnn_resnet50_fpn`)
 porém em PyTorch moderno e mantido (o repositório original depende de
 TensorFlow 1.x / Keras 2.x e não roda em ambientes atuais).
 
+## Exemplo
+
+| Fonte (pré-segmentação) | Segmentação (pós) |
+|:---:|:---:|
+| ![Imagem fonte](exemplo_fonte.jpg) | ![Imagem segmentada](exemplo.jpg) |
+
 ## Estrutura
 
 ```
